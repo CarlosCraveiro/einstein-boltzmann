@@ -1,0 +1,30 @@
+* AD633 Analog Voltage Multiplier
+
+*Revision History:
+*Rev.0.1 Feb 2024-ZZ
+*Copyright 2024 by Carlos Craveiro
+*
+*Refer to https://mit-license.org/ 
+*for License Statement. Use of this model indicates your acceptance
+*of the terms and provisions in the License Staement.
+
+* I created this Wrapper for the AD633 Spice model for my a custom project.
+* The License of the AD633.cir is a special licence made by analog devices, so you both can use 
+* theirs SPICE Model, or create your own.
+
+.INC "ad633.cir" ; Include AD633 model
+
+*Node Assignments 
+*                 Uz
+*                 |   V-
+*                 |   |   Uy
+*                 |   |   |   GND
+*                 |   |   |   |   Ux
+*                 |   |   |   |   |   V+
+*                 |   |   |   |   |   |   Uw
+*                 |   |   |   |   |   |   |
+.SUBCKT AD633-CP 42a 42b 42c 42d 42e 42f 42g
+* The Ux2 and Uy2 are wire together to the ground
+* The AD633
+X1 42e 42d 42c 42d 42b 42a 42g 42f AD633
+.ENDS AD633-CP

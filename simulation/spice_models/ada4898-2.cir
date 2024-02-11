@@ -1,0 +1,36 @@
+* Dual ADA4898 Operational Amplifier Circuit
+
+*Revision History:
+*Rev.0.1 Feb 2024-ZZ
+*Copyright 2024 by Carlos Craveiro
+*
+*Refer to https://mit-license.org/ 
+*for License Statement. Use of this model indicates your acceptance
+*of the terms and provisions in the License Staement.
+
+* I created this Wrapper for the ADA4898 Spice model because the chipset I was working contains 
+* 2 AMPOPS of the type ADA4898 by Analog Devices.
+* The License of the ADA4898.cir is a special licence made by analog devices, so you both can use 
+* theirs SPICE Model, or create your own.
+
+.INC "ada4898.cir"  ; Include ADA4898 model
+
+*Node Assignments 
+*                  First Output
+*                  |   First Non-Inverting Input
+*                  |   |   First Inverting Input
+*                  |   |   |   V-
+*                  |   |   |   |   Second Non-Inverting Input
+*                  |   |   |   |   |   Second Inverting Input
+*                  |   |   |   |   |   |   Second Output
+*                  |   |   |   |   |   |   |   V+
+*                  |   |   |   |   |   |   |   |
+.SUBCKT ADA4898-2 42a 42b 42c 42d 42e 42f 42g 42h
+* In my module I left the Pad Pin connected to the negative source
+* First ADA4898
+X1 42b 42c 42h 42d 42a 42d ADA4898
+
+* Second ADA4898
+X2 42e 42f 42h 42d 42g 42d ADA4898
+
+.ENDS ADA4898-2
