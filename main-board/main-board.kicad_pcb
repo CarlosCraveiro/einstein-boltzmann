@@ -15371,7 +15371,7 @@
 
   (footprint "footprints:Switch" (layer "F.Cu")
     (tstamp 12da3864-5d32-42d8-b6bb-31d2443ba201)
-    (at 157.925 118.85 90)
+    (at 183.225 102.8 90)
     (property "Sheetfile" "main-board.kicad_sch")
     (property "Sheetname" "")
     (property "Sim.Device" "SW")
@@ -15442,7 +15442,7 @@
 
   (footprint "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" (layer "F.Cu")
     (tstamp 29ead7e8-b557-49ed-9f7a-926cf56e06cc)
-    (at 183.28 95.95)
+    (at 192.45 57.8)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=6*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 6mm width 2.5mm Capacitor")
     (property "Sheetfile" "main-board.kicad_sch")
@@ -15504,7 +15504,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal" (layer "F.Cu")
     (tstamp 348b3709-426e-46dd-92d6-3e6c9c52ea93)
-    (at 191.48 95.9)
+    (at 200.65 57.75)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=15.24mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 15.24mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "Sheetfile" "main-board.kicad_sch")
@@ -15636,7 +15636,7 @@
 
   (footprint "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm" (layer "F.Cu")
     (tstamp 390fbb75-7b13-4457-a09a-f72a9dfe7c69)
-    (at 112.75 54.95)
+    (at 105.5 54.85)
     (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.4*2.1mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
     (tags "C Disc series Radial pin pitch 2.50mm  diameter 3.4mm width 2.1mm Capacitor")
     (property "Sheetfile" "main-board.kicad_sch")
@@ -16501,7 +16501,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" (layer "F.Cu")
     (tstamp 54b07e0a-254b-4afa-bc89-9f8f7f7fafa0)
-    (at 159.9 136.45)
+    (at 155.9 131.55)
     (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x01 2.54mm single row")
     (property "Sheetfile" "main-board.kicad_sch")
@@ -16685,7 +16685,7 @@
 
   (footprint "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" (layer "F.Cu")
     (tstamp 63a7536a-7ab4-4df2-a5c2-22febfad063f)
-    (at 174.9 145.35 180)
+    (at 174.9 145.35 -90)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=6*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 6mm width 2.5mm Capacitor")
     (property "Sheetfile" "main-board.kicad_sch")
@@ -16695,15 +16695,15 @@
     (property "ki_keywords" "cap capacitor")
     (path "/8cd448dc-7720-4d93-935d-c91d6813c798")
     (attr through_hole)
-    (fp_text reference "C6" (at 2.5 -2.5) (layer "F.SilkS")
+    (fp_text reference "C6" (at 2.5 -2.5 -270) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e2486339-a0c7-42d1-82e5-7024b5bf031b)
     )
-    (fp_text value "10u" (at 2.5 2.5) (layer "F.Fab")
+    (fp_text value "10u" (at 2.5 2.5 -270) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 66c5d61e-c723-4eac-957e-b327fd39d1ff)
     )
-    (fp_text user "${REFERENCE}" (at 2.5 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 2.5 0 -270) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2e9dbfc9-f961-4541-b902-463a63c14ff7)
     )
@@ -16735,9 +16735,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp b765ad99-202b-4ae4-b715-0670c2190c5d))
     (fp_line (start 5.5 1.25) (end 5.5 -1.25)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp d9e1b18e-39b0-4d3f-9d32-e9f8a845f1e4))
-    (pad "1" thru_hole circle (at 0 0 180) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask")
+    (pad "1" thru_hole circle (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask")
       (net 8 "/w_out") (pintype "passive") (tstamp ab2b85d5-bbf8-45f0-bd95-8997b02b2ee2))
-    (pad "2" thru_hole circle (at 5 0 180) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask")
+    (pad "2" thru_hole circle (at 5 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask")
       (net 9 "GND") (pintype "passive") (tstamp 1308fd02-2645-4d26-a0f2-7a83bd45cd85))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D6.0mm_W2.5mm_P5.00mm.wrl"
       (offset (xyz 0 0 0))
@@ -16870,7 +16870,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal" (layer "F.Cu")
     (tstamp 70c9f77a-8069-4e1b-a3c5-3998b12b43f4)
-    (at 206.7 78.44 90)
+    (at 206.7 78.57 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=15.24mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 15.24mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "Sheetfile" "main-board.kicad_sch")
@@ -16936,7 +16936,7 @@
 
   (footprint "footprints:CapacitorSocket" (layer "F.Cu")
     (tstamp 79ae3013-c210-4f67-9809-35445db9c141)
-    (at 143.45 103.125 -90)
+    (at 116.8 106.625 -90)
     (property "Sheetfile" "main-board.kicad_sch")
     (property "Sheetname" "")
     (property "Sim.Device" "C")
@@ -17006,7 +17006,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" (layer "F.Cu")
     (tstamp 7c744969-8419-4d94-80f4-5ffef4b809b8)
-    (at 174.95 138.2)
+    (at 168 145.35)
     (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x01 2.54mm single row")
     (property "Sheetfile" "main-board.kicad_sch")
@@ -17549,7 +17549,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal" (layer "F.Cu")
     (tstamp 8c27f8a6-8c22-4adb-af0c-e033d5fcc5ce)
-    (at 133.38 95.95)
+    (at 107.98 100.6)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=15.24mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 15.24mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "Sheetfile" "main-board.kicad_sch")
@@ -17805,7 +17805,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal" (layer "F.Cu")
     (tstamp 9e209f65-9785-441f-adb6-1a1280c5889e)
-    (at 93.5 91.43 -90)
+    (at 107.78 93.95)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=15.24mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 15.24mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "Sheetfile" "main-board.kicad_sch")
@@ -17814,15 +17814,15 @@
     (property "ki_keywords" "R res resistor")
     (path "/c58de7fc-3335-4193-8bb6-fc3f740faba0")
     (attr through_hole)
-    (fp_text reference "R7" (at 7.62 -2.37 90) (layer "F.SilkS")
+    (fp_text reference "R7" (at 7.62 -2.37) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fea65a18-0e1b-4b92-acf3-c420e76c0a52)
     )
-    (fp_text value "20" (at 7.62 2.37 90) (layer "F.Fab")
+    (fp_text value "20" (at 7.62 2.37) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9e3a2c33-3120-49ff-808a-c8eeec1e89ff)
     )
-    (fp_text user "${REFERENCE}" (at 7.62 0 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 7.62 0) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp befcbfc0-4e5b-4d23-a7ed-2f29528c7146)
     )
@@ -17858,9 +17858,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 084e9268-cbdd-40e9-bb20-894bbded87a7))
     (fp_line (start 15.24 0) (end 10.77 0)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 05724c59-655f-4d3f-a33d-fa9f2b341bf8))
-    (pad "1" thru_hole circle (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask")
+    (pad "1" thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask")
       (net 1 "/w1") (pintype "passive") (tstamp 928d5244-3c03-47e2-b442-c64ccddde327))
-    (pad "2" thru_hole oval (at 15.24 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask")
+    (pad "2" thru_hole oval (at 15.24 0) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask")
       (net 10 "/w2") (pintype "passive") (tstamp cb47e1a2-b9be-41be-b3ce-243635d44658))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal.wrl"
       (offset (xyz 0 0 0))
@@ -19638,7 +19638,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal" (layer "F.Cu")
     (tstamp c8739ec5-f6cf-4c5c-a6d6-a69f50a9d2da)
-    (at 120.72 100.25 180)
+    (at 144.5 78.65 180)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=15.24mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 15.24mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "Sheetfile" "main-board.kicad_sch")
@@ -19704,7 +19704,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal" (layer "F.Cu")
     (tstamp d170d6a2-8ff9-4a83-acde-8ecb2c1d5855)
-    (at 106.48 61.25)
+    (at 99.23 61.15)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=15.24mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 15.24mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "Sheetfile" "main-board.kicad_sch")
@@ -19770,7 +19770,7 @@
 
   (footprint "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm" (layer "F.Cu")
     (tstamp d69178f0-43ce-4ad0-a374-fa91d9e14f3b)
-    (at 147.65 118.68 -90)
+    (at 212.9 72.2 90)
     (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.4*2.1mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
     (tags "C Disc series Radial pin pitch 2.50mm  diameter 3.4mm width 2.1mm Capacitor")
     (property "Sheetfile" "main-board.kicad_sch")
@@ -19819,9 +19819,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 65952729-4cf2-4e7f-80cf-51b5eddb32c9))
     (fp_line (start 2.95 1.05) (end 2.95 -1.05)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp ee696395-5fb6-46f3-b6ee-ac7fa3d2d1ab))
-    (pad "1" thru_hole circle (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask")
+    (pad "1" thru_hole circle (at 0 0 90) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask")
       (net 26 "/w12") (pintype "passive") (tstamp 6806846f-b717-4dfd-b1b2-888ca30c8fbf))
-    (pad "2" thru_hole circle (at 2.5 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask")
+    (pad "2" thru_hole circle (at 2.5 0 90) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask")
       (net 4 "/w_input") (pintype "passive") (tstamp 44f372ad-82a8-4a24-9ef0-1f72fd50a972))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D3.4mm_W2.1mm_P2.50mm.wrl"
       (offset (xyz 0 0 0))
@@ -19836,11 +19836,11 @@
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "G***" (at 0 0) (layer "F.SilkS") hide
         (effects (font (size 1.5 1.5) (thickness 0.3)))
-      (tstamp 2b3a61e7-92c7-40a2-8708-d46ce66a1c5e)
+      (tstamp b0b1ce88-25e1-4efb-9f92-91d7e1e1fcd4)
     )
     (fp_text value "LOGO" (at -1 0) (layer "F.SilkS")
         (effects (font (size 1.5 1.5) (thickness 0.3)))
-      (tstamp 77e7465f-587c-432b-8737-8b04cb4862f9)
+      (tstamp 5c230a01-f4be-4ac7-8074-dd1c309d08a2)
     )
     (fp_poly
       (pts
@@ -20698,12 +20698,12 @@
         (xy 90.311111 -55.992888)
       )
 
-      (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 01359b1a-9262-4248-ad80-54a1b5485219))
+      (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp c5212494-fbf7-4dff-98ba-9194c3622334))
   )
 
   (footprint "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm" (layer "F.Cu")
     (tstamp dba66bfd-b467-4da6-a6ba-2e20cfea7c76)
-    (at 111.9 106.35)
+    (at 135.75 84.7)
     (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.4*2.1mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
     (tags "C Disc series Radial pin pitch 2.50mm  diameter 3.4mm width 2.1mm Capacitor")
     (property "Sheetfile" "main-board.kicad_sch")
@@ -21231,7 +21231,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" (layer "F.Cu")
     (tstamp f22e51dd-e079-485c-baf5-bb4dfe080538)
-    (at 153.2 113.4)
+    (at 171.95 102.8)
     (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x01 2.54mm single row")
     (property "Sheetfile" "main-board.kicad_sch")
@@ -21294,7 +21294,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" (layer "F.Cu")
     (tstamp f6e1e9bf-3321-47d7-a0b5-de8da35f4842)
-    (at 167.25 113)
+    (at 196.8 102.85)
     (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x01 2.54mm single row")
     (property "Sheetfile" "main-board.kicad_sch")
@@ -22328,11 +22328,11 @@
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "G***" (at 0 0) (layer "F.SilkS")
         (effects (font (size 1.5 1.5) (thickness 0.3)))
-      (tstamp 0446588f-8b88-47fc-bf6a-984ef55c0894)
+      (tstamp f270a5b2-cc7d-4964-ae62-e6792cb5f0a3)
     )
     (fp_text value "LOGO" (at 0.75 0) (layer "F.SilkS") hide
         (effects (font (size 1.5 1.5) (thickness 0.3)))
-      (tstamp 22476a34-d693-4a3d-952b-b5af26eefa43)
+      (tstamp 34c34e8e-a345-4637-aaad-a11de6ec0a13)
     )
     (fp_poly
       (pts
@@ -23190,7 +23190,7 @@
         (xy 90.311111 55.992888)
       )
 
-      (stroke (width 0) (type solid)) (fill solid) (layer "Eco1.User") (tstamp 967421f5-3849-48b6-aaf1-10dbf077288a))
+      (stroke (width 0) (type solid)) (fill solid) (layer "Eco1.User") (tstamp 0ce44746-c331-434b-8fc5-0a6f95133e18))
   )
 
   (gr_arc (start 240 145) (mid 237.363961 151.363961) (end 231 154)
