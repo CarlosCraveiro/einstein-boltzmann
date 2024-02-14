@@ -450,7 +450,7 @@
       "netlist": "",
       "specctra_dsn": "",
       "step": "",
-      "vrml": ""
+      "vrml": "../main-board/module_3Dmodels/tension-multiplier.wrl"
     },
     "page_layout_descr_file": ""
   },

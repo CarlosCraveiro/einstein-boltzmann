@@ -56,7 +56,7 @@
         }
       ],
       "drc_exclusions": [
-        "lib_footprint_mismatch|143900000|91905000|30bfcf85-c164-41ee-b333-f075cb46c1aa|00000000-0000-0000-0000-000000000000"
+        "lib_footprint_mismatch|149510000|89750000|30bfcf85-c164-41ee-b333-f075cb46c1aa|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
@@ -450,7 +450,7 @@
       "netlist": "",
       "specctra_dsn": "",
       "step": "",
-      "vrml": ""
+      "vrml": "../main-board/module_3Dmodels/amplifiers.wrl"
     },
     "page_layout_descr_file": ""
   },
