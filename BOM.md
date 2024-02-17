@@ -17,16 +17,16 @@
 
 * Resistors:
 
-| Components        | Qty   |
-| ----------------- | ----- |
-| Resistor 510 Ohm  | **1** |
-| Resistor 20 Ohm   | **1** |
-| Resistor 1k Ohm   | **2** |
-| Resistor 100 Ohm  | **4** |
-| Resistor 10k Ohm  | **3** |
-| Resistor 1.5M Ohm | **1** |
-| Resistor 18k Ohm  | **1** |
-| Resistor 2k Ohm   | **5** |
+| Components        | Qty   | Unit Price (BRL) | Link |
+| ----------------- | ----- | ---------- | ---- |
+| Resistor 510 Ohm  | **1** | 0.05 | [Baú da Eletrônica](https://www.baudaeletronica.com.br/produto/resistor-510r-5-14w.html) |
+| Resistor 20 Ohm   | **1** | 0.05 | [Baú da Eletrônica](https://www.baudaeletronica.com.br/produto/resistor-20r-5-14w.html) |
+| Resistor 1k Ohm   | **2** | 0.05 | [Baú da Eletrônica](https://www.baudaeletronica.com.br/produto/resistor-1k-5-14w.html) |
+| Resistor 100 Ohm  | **4** | 0.04 | [Baú da Eletrônica](https://www.baudaeletronica.com.br/produto/resistor-100r-5-14w.html) |
+| Resistor 10k Ohm  | **3** | 0.05 | [Baú da Eletrônica](https://www.baudaeletronica.com.br/produto/resistor-10k-5-14w.html) |
+| Resistor 1.5M Ohm | **1** | 0.05 | [Baú da Eletrônica](https://www.baudaeletronica.com.br/produto/resistor-1m5-5-14w.html) |
+| Resistor 18k Ohm  | **1** | 0.05 | [Baú da Eletrônica](https://www.baudaeletronica.com.br/produto/resistor-18k-5-14w.html) |
+| Resistor 2k Ohm   | **5** | 0.05 | [Baú da Eletrônica](https://www.baudaeletronica.com.br/produto/resistor-2k-5-14w.html) |
 
 * LEDs:
 
