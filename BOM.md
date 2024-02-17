@@ -8,7 +8,7 @@
 
 * Capacitors: 
 
-| Components               | Qty   | Price (BRL) | Link                                                                                                      |
+| Components               | Qty   |  Unit Price (BRL) | Link                                                                                                      |
 | ------------------------ | ----- | ----------- | --------------------------------------------------------------------------------------------------------- |
 | EC Capacitor 10uF        | **4** | 0.15        | [Bau da Eletronica](https://www.baudaeletronica.com.br/produto/capacitor-eletrolitico-10uf-25v-105c.html) |
 | Tantalum Capacitor 0.1uF | **4** | 0.99        | [Bau da Eletronica](https://www.baudaeletronica.com.br/produto/capacitor-tantalo-01uf-35v.html)           |
@@ -49,9 +49,9 @@
 
 * Other:
 
-| Components               | Qty   |
-| ------------------------ | ----- |
-| Mini-Jumper_1x02_P2.54mm | **1** |
+| Components               | Qty   | Unit Price (BRL) | Link                                                                                              |
+| ------------------------ | ----- | ---------------- | ------------------------------------------------------------------------------------------------- |
+| Mini-Jumper_1x02_P2.54mm | **1** | 0.15             | [Bau da Eletronica](https://www.baudaeletronica.com.br/produto/conector-mini-jumper-sem-aba.html) |
 
 ## Analog Amplifiers Board
 
