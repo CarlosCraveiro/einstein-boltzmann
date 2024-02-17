@@ -95,12 +95,12 @@
 
 * Capacitors:
 
-| Components               | Qty   |
-| ------------------------ | ----- |
-| Ceramic Capacitor 14.8nF | **1** |
-| Ceramic Capacitor 27.9nF | **1** |
-| Ceramic Capacitor 33.4nF | **1** |
-| Ceramic Capacitor 42.3nF | **1** |
-| Ceramic Capacitor 66.9nF | **1** |
-| Ceramic Capacitor 105nF  | **1** |
+| Components               | Qty   | Unit Price (BRL) | Link |
+| ------------------------ | ----- | ---------------- | ---- |
+| Ceramic Capacitor 14.8nF | **1** | 0.10 | [Baú da Eletrônica](https://www.baudaeletronica.com.br/produto/capacitor-ceramico-15nf-50v.html) |
+| Ceramic Capacitor 27.9nF | **1** |  | []() |
+| Ceramic Capacitor 33.4nF | **1** | 0.14 | [Baú da Eletrônica](https://www.baudaeletronica.com.br/produto/capacitor-ceramico-33nf-50v.html) |
+| Ceramic Capacitor 42.3nF | **1** |  | []() |
+| Ceramic Capacitor 66.9nF | **1** |  | []() |
+| Ceramic Capacitor 105nF  | **1** |  | []() |
 
