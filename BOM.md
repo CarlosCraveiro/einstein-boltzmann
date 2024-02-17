@@ -30,9 +30,9 @@
 
 * LEDs:
 
-| Components              | Qty   |
-| ----------------------- | ----- |
-| LED High Brightness 3mm | **4** |
+| Components | Qty   | Unit Price (BRL) | Link                                                                                     |
+| ---------- | ----- | ---------------- | ---------------------------------------------------------------------------------------- |
+| LED 3mm    | **4** | 0.24             | [Bau da Eletronica](https://www.baudaeletronica.com.br/produto/led-difuso-3mm-azul.html) |
 
 * Pin-Headers:
 
