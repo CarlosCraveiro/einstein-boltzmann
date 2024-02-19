@@ -30,9 +30,9 @@
 
 * LEDs:
 
-| Components | Qty   | Unit Price (BRL) | Link                                                                                     |
-| ---------- | ----- | ---------------- | ---------------------------------------------------------------------------------------- |
-| LED 3mm    | **4** | 0.24             | [Bau da Eletronica](https://www.baudaeletronica.com.br/produto/led-difuso-3mm-azul.html) |
+| Components | Qty   | Unit Price (BRL) | Link                                                                                     | Link 2 |
+| ---------- | ----- | ---------------- | ---------------------------------------------------------------------------------------- | ------ |
+| LED 3mm    | **4** | 0.24 / 0.20      | [Bau da Eletronica](https://www.baudaeletronica.com.br/produto/led-difuso-3mm-azul.html) | [Saravati](https://www.saravati.com.br/led-difuso-3mm-azul.html) |
 
 * Pin-Headers:
 
@@ -51,7 +51,7 @@
 
 | Components               | Qty   | Unit Price (BRL) | Link                                                                                              | Link 2  |
 | ------------------------ | ----- | ---------------- | ------------------------------------------------------------------------------------------------- | ------- |
-| Mini-Jumper_1x02_P2.54mm | **1** | 0.15/0.15        | [Bau da Eletronica](https://www.baudaeletronica.com.br/produto/conector-mini-jumper-sem-aba.html) | [Saravati](https://www.saravati.com.br/jumper-fecha-contato-preto.html) |
+| Mini-Jumper_1x02_P2.54mm | **1** | 0.15 / 0.15      | [Bau da Eletronica](https://www.baudaeletronica.com.br/produto/conector-mini-jumper-sem-aba.html) | [Saravati](https://www.saravati.com.br/jumper-fecha-contato-preto.html) |
 
 ## Analog Amplifiers Board
 
