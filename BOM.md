@@ -102,7 +102,7 @@
 | Ceramic Capacitor 14.8nF   | **1** | 0.10 / 0.10      | [Baú da Eletrônica](https://www.baudaeletronica.com.br/produto/capacitor-ceramico-15nf-50v.html) | [Saravati](https://www.saravati.com.br/capacitor-ceramico-15nf-50v.html) |
 | *Ceramic Capacitor 20.3nF* | **1** | 0.58             | [Baú da Eletrônica](https://www.baudaeletronica.com.br/produto/capacitor-ceramico-20nf-50v.html) |           |
 | *Ceramic Capacitor 22.3nF* | **1** | 0.10             | [Saravati](https://www.saravati.com.br/capacitor-ceramico-22nf-50v.html)                         |           |
-| Ceramic Capacitor 27.9nF   | **1** |  Não Achei       | []()                                                                                             |           |
+| Ceramic Capacitor 27.9nF   | **1** | 0.55             | [CaAndMa](https://caandma.com.br/)                                                               |           |
 | Ceramic Capacitor 33.4nF   | **1** | 0.14 / 0.10      | [Baú da Eletrônica](https://www.baudaeletronica.com.br/produto/capacitor-ceramico-33nf-50v.html) | [Saravati](https://www.saravati.com.br/capacitor-ceramico-15nf-50v.html) |
 | Ceramic Capacitor 42.3nF   | **1** | 0.10             | [Saravati](https://www.saravati.com.br/capacitor-ceramico-47nf-50v.html)                         |           |
 | Ceramic Capacitor 66.9nF   | **1** | 0.10             | [Saravati](https://www.saravati.com.br/capacitor-ceramico-68nf-50v.html)                         |           |
