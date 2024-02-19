@@ -8,9 +8,9 @@
 
 * Capacitors: 
 
-| Components               | Qty   |  Unit Price (BRL) | Link                                                                                                      |
-| ------------------------ | ----- | ----------------- | --------------------------------------------------------------------------------------------------------- |
-| EC Capacitor 10uF        | **4** | 0.15              | [Bau da Eletronica](https://www.baudaeletronica.com.br/produto/capacitor-eletrolitico-10uf-25v-105c.html) |
+| Components               | Qty   |  Unit Price (BRL) | Link                                                                                                      | Link 2 |
+| ------------------------ | ----- | ----------------- | --------------------------------------------------------------------------------------------------------- | ------ |
+| EC Capacitor 10uF        | **4** | 0.15 / 0.15       | [Bau da Eletronica](https://www.baudaeletronica.com.br/produto/capacitor-eletrolitico-10uf-25v-105c.html) | [Saravati](https://www.saravati.com.br/capacitor-eletrolitico-10uf-16v.html) |
 | Tantalum Capacitor 0.1uF | **4** | 0.99              | [Bau da Eletronica](https://www.baudaeletronica.com.br/produto/capacitor-tantalo-01uf-35v.html)           |
 | Tantalum Capacitor 10uF  | **4** | 0.92              | [Bau da Eletronica](https://www.baudaeletronica.com.br/produto/capacitor-tantalo-10uf-16v.html)           |
 | Ceramic Capacitor 10pF   | **3** | 0.17              | [Bau da Eletronica](https://www.baudaeletronica.com.br/produto/capacitor-ceramico-10pf-50v.html)          |
