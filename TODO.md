@@ -8,7 +8,7 @@
 
 - [ ] Place "user interface" pins together and close to the edges
 
-- [ ] Do something to avoid needing of four 9V batteries
+- [x] Do something to avoid needing of four 9V batteries
 
 - [ ] Increase via spacing
 
@@ -18,4 +18,4 @@
 
 - [ ] Improve "informativeness" of the labels on the board
 
-- [ ] Change the 10u capacitors to polyester ones (change the silk)
+- [x] Change the 10u capacitors to polyester ones (change the silk)
