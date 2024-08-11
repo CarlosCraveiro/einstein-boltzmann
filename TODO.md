@@ -4,9 +4,9 @@
 
 - [ ] Increase Via and track size
 
-- [ ] Place the decoupling capacitors closer to the components
+- [x] Place the decoupling capacitors closer to the components
 
-- [ ] Place "user interface" pins together and close to the edges
+- [x] Place "user interface" pins together and close to the edges
 
 - [x] Do something to avoid needing of four 9V batteries
 
@@ -19,3 +19,5 @@
 - [ ] Improve "informativeness" of the labels on the board
 
 - [x] Change the 10u capacitors to polyester ones (change the silk)
+
+- [ ] Reduce board size a little, but maintaining golden ratio
