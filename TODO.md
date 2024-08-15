@@ -16,10 +16,10 @@
 
 - [x] Reduce silk resistor size
 
-- [ ] Improve "informativeness" of the labels on the board
+- [x] Improve "informativeness" of the labels on the board
 
 - [x] Change the 10u capacitors to polyester ones (change the silk)
 
 - [x] Reduce board size a little, but maintaining golden ratio
 
-- [ ] Finishes Placement of Components
+- [x] Finishes Placement of Components
