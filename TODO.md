@@ -14,10 +14,12 @@
 
 - [ ] Avoid unnecessary 90-degree tracks
 
-- [ ] Reduce silk resistor size
+- [x] Reduce silk resistor size
 
 - [ ] Improve "informativeness" of the labels on the board
 
 - [x] Change the 10u capacitors to polyester ones (change the silk)
 
-- [ ] Reduce board size a little, but maintaining golden ratio
+- [x] Reduce board size a little, but maintaining golden ratio
+
+- [ ] Finishes Placement of Components
