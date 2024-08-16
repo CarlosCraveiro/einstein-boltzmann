@@ -1,8 +1,8 @@
 # Project's TO-DO List:
 
-- [ ] Add a Ground Plane on top of the board
+- [x] Add a Ground Plane on top of the board
 
-- [ ] Increase Via and track size
+- [x] Increase Via and track size
 
 - [x] Place the decoupling capacitors closer to the components
 
@@ -10,9 +10,9 @@
 
 - [x] Do something to avoid needing of four 9V batteries
 
-- [ ] Increase via spacing
+- [x] Increase via spacing
 
-- [ ] Avoid unnecessary 90-degree tracks
+- [x] Avoid unnecessary 90-degree tracks
 
 - [x] Reduce silk resistor size
 
