@@ -1,25 +1,15 @@
 # Project's TO-DO List:
 
-- [x] Add a Ground Plane on top of the board
+- [ ] Write the Board's Instruction Manual
 
-- [x] Increase Via and track size
+- [ ] Write Project's README and Wiki
 
-- [x] Place the decoupling capacitors closer to the components
+- [ ] Upload the EPO Test pdf on Github
 
-- [x] Place "user interface" pins together and close to the edges
+- [ ] Update, Complete and Improves project's BOM
 
-- [x] Do something to avoid needing of four 9V batteries
+- [ ] Finish the Mounting Base
 
-- [x] Increase via spacing
+- [ ] Improve the Simulation
 
-- [x] Avoid unnecessary 90-degree tracks
-
-- [x] Reduce silk resistor size
-
-- [x] Improve "informativeness" of the labels on the board
-
-- [x] Change the 10u capacitors to polyester ones (change the silk)
-
-- [x] Reduce board size a little, but maintaining golden ratio
-
-- [x] Finishes Placement of Components
+- [ ] Improve project's organization
