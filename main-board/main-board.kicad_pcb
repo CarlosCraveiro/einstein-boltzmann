@@ -8,7 +8,7 @@
   (title_block
     (title "Einstein-Boltzmann Main Board")
     (date "2024-02-14")
-    (rev "0.1")
+    (rev "1.0")
     (company "Carlos Craveiro")
     (comment 1 "Part of the Einstein-Boltzmann Project")
   )
@@ -56,7 +56,7 @@
       (layer "B.Mask" (type "Bottom Solder Mask") (color "Black") (thickness 0.01))
       (layer "B.Paste" (type "Bottom Solder Paste"))
       (layer "B.SilkS" (type "Bottom Silk Screen") (color "White"))
-      (copper_finish "None")
+      (copper_finish "HAL lead-free")
       (dielectric_constraints no)
     )
     (pad_to_mask_clearance 0)
